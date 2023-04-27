@@ -1,5 +1,8 @@
 # Program do przetwarzania obrazów histopatologicznych
 
+Program wykonany w ramach projektu z przedmiotu Programowanie w JAVA
+## Autorzy
+Grzegorz Molak, Alex Chmielnicki
 ## Założenia
 
 Program powinien mieć interfejs graficzny umożliwiający: 
@@ -47,32 +50,6 @@ W sekcji postprocessingu znajdują się następujące operacje:
 * Krawędziowanie
 * Nałożenie obrazu wyjściowego na wejściowe
 * Odwrócenie kolorów obrazu 
-
-## Diagramy klas
-<!-- ![image](/diagrams/diagram1.png "Algorytmy") -->
-<figure>
-<img src="/diagrams/diagram1.png" alt="Algorytmy" style="width:100%">
-<figcaption align = "center"><b>Algorytmy</b></figcaption>
-</figure>
-
-<figure>
-<img src="/diagrams/diagram2.png" alt="Algorytmy" style="width:100%">
-<figcaption align = "center"><b>Klasy potrzebne do implementacji algorytmu wododziałowego</b></figcaption>
-</figure>
-<!-- ![Klasy potrzebne do implementacji algorytmu wododziałowego](/diagrams/diagram2.png) -->
-<figure>
-<img src="/diagrams/diagram3.png" alt="Algorytmy" style="width:100%">
-<figcaption align = "center"><b>Elementy GUI</b></figcaption>
-</figure>
-<!-- ![Elementy GUI](/diagrams/diagram3.png) -->
-<figure>
-<img src="/diagrams/diagram4.png" alt="Algorytmy" style="width:100%">
-<figcaption align = "center"><b>Schemat działania programu</b></figcaption>
-</figure>
-<!-- ![GUI](/diagrams/diagram4.png) -->
-
-
-
 
 ## Proponowany sposób użycia programu
 
