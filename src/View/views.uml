@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-122.74130105900133" y="66.5673222390318">View.ParameterSection</node>
+    <node x="-487.2488653555219" y="-256.3298033282904">View.App</node>
+    <node x="-495.7488653555219" y="168.5673222390318">View.ParameterSetting</node>
+    <node x="-78.74130105900133" y="-155.09379727685325">View.OperationView</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="View.ParameterSetting" target="View.ParameterSection" relationship="CREATE">
+      <point x="113.0" y="0.0" />
+      <point x="5.25869894099867" y="239.5673222390318" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="View.App" target="View.ParameterSetting" relationship="TO_ONE">
+      <point x="0.0" y="115.0" />
+      <point x="-382.7488653555219" y="239.5673222390318" />
+      <point x="-113.0" y="0.0" />
+    </edge>
+    <edge source="View.ParameterSection" target="View.OperationView" relationship="CREATE">
+      <point x="-128.0" y="-107.5" />
+      <point x="5.25869894099867" y="74.0673222390318" />
+      <point x="5.25869894099867" y="37.73676248108927" />
+      <point x="5.5" y="37.73676248108927" />
+      <point x="0.24130105900133003" y="54.59379727685325" />
+    </edge>
+    <edge source="View.ParameterSetting" target="View.ParameterSection" relationship="TO_ONE">
+      <point x="0.0" y="-71.0" />
+      <point x="-382.7488653555219" y="181.5673222390318" />
+      <point x="-128.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="true" x="-181.0" y="27.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
